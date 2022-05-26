@@ -1,0 +1,69 @@
+.border{
+    /* background : gray; */
+    max-width : 60vh;
+    height : 600px;
+    margin : auto;
+    padding : 5px;
+    border : 1.5px solid lightgray;
+    border-radius : 20px
+}
+
+.day {
+    /* background : green; */
+    /* margin-top: 20px; */
+    display : flex;
+    justify-content: center;
+    align-items : center;
+    /* padding : 20px; */
+}
+
+
+#circle1{
+    margin : 5px;
+    background-color: #F6D304 ;
+    width:30px;
+    height:30px;
+    border-radius: 15px;
+    border : none;
+  }
+
+  #circle2{
+    margin : 5px;
+    background-color: #ffeac5;
+    width:30px;
+    height:30px;
+    border-radius: 15px;
+    border : none;
+  }
+
+ #triangle {
+    margin-left : 20px;
+    margin : 10px;
+     width : 0px;
+     height : 0px;
+     border-left : 30px solid #EC3843;
+     border-top : 17px solid transparent;
+     border-bottom: 17px solid transparent;
+     
+ }
+
+ .button {
+    margin-top : 10px;
+    background-color:#2663A3;
+    border-radius: 5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #2663A3;
+    color: white;
+    padding: 0.25em 1em;
+    font-size: 20px;
+    cursor: pointer;
+ }
+
+ /* style={{background : "#2663A3", blockSize:"50px"} */
+
+ /* darkblue  #2663A3 */
+ /* mid blue #398AB9 */
+ /* red #EC3843 */
+ /* 개나리 : #F7C100 */
+  
